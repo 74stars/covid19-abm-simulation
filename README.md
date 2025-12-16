@@ -1,2 +1,6 @@
 # covid19-abm-simulation
-This project uses an agent-based model in NetLogo to simulate COVID-19 spread in Hong Kong, incorporating compliance fatigue and age-related behavioral differences. Results show that high vaccination coverage reduces infection peaks and mortality, especially among the elderly, while compliance fatigue accelerates outbreaks. 
+This project develops an agent-based simulation in NetLogo to model COVID-19 transmission in Hong Kong, explicitly incorporating compliance fatigue (declining adherence to preventive measures over time) and age-related behavioral differences. Younger agents exhibit higher mobility and contact frequency, while elderly agents adopt partial self-isolation behaviors.
+
+Through scenario-based simulations with varying vaccination rates, transmission probabilities, fatigue levels, and initial infection sizes, the model demonstrates that high vaccination coverage effectively reduces infection peaks and mortality, particularly among older populations. In contrast, compliance fatigue accelerates outbreak intensity by advancing and amplifying infection surges. Elderly self-isolation significantly lowers mortality risk, whereas younger populations primarily drive transmission due to higher mobility.
+
+The model highlights the importance of age-targeted interventions, vaccination prioritization, and periodic policy adjustments to mitigate behavioral fatigue. This work provides a flexible simulation framework to support epidemic policy evaluation and resilience planning in high-density urban environments.
